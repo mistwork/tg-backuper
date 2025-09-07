@@ -27,7 +27,6 @@ for path in backup_paths:
         print(f"Warning: path does not exist: {path}")
 
 lines = [
-    "version: '3.9'",
     "services:",
     "  backuper:",
     "    build: .",
