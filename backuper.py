@@ -45,11 +45,12 @@ async def send_backup():
     for path in PATHS:
         try:
             archive_path = make_backup(path)
+            file_name = os.path.basename(path)
             file = FSInputFile(archive_path)
             await bot.send_document(chat_id=CHAT_ID, document=file, 
                                     caption=
                                     f"<b>✅ Backup has been successfully created</b>\n\n"
-                                    f"<b>💾 File path:</b> {path}\n"
+                                    f"<b>💾 File name:</b> {file_name}\n"
                                     f"<b>📅 Date:</b> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n", 
                                     parse_mode="HTML")
             print(f"[{datetime.now()}] Backup sent: {archive_path}", flush=True)
