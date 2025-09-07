@@ -39,17 +39,17 @@ python3 generate_compose.py
 ```
 5. Run:
 ```bash
-docker-compose up -d --build
+docker compose up -d --build
 ```
 
 To view logs:
 ```bash
-docker-compose logs -f
+docker compose logs -f
 ```
 
 To stop the service:
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ### How to create Telegram Bot:
