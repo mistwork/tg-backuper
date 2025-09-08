@@ -5,7 +5,7 @@
 
 - 🗂️ Backup any files or directories: Just specify paths in the .env file.
 - ⏱️ Scheduled backups: Automatic backup at a configurable interval (seconds).
-- 📤 Send backups via Telegram: Archives are sent directly to your specified Telegram chat.
+- ✉️ Send backups via Telegram: Archives are sent directly to your specified Telegram chat.
 - 🐳 Docker-ready: Easily run in Docker with dynamic volume mounting.
 
 ## Installation & Running 🛠️
