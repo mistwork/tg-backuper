@@ -12,7 +12,7 @@
 
 1. Clone the project:
 ```bash
-git clone https://github.com/mistwork/tg-backuper.git
+git clone https://github.com/its-mist/tg-backuper.git
 ```
 2. Go to project folder:
 ```bash
