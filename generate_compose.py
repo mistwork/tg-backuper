@@ -33,7 +33,7 @@ lines = [
     "    container_name: tg_backuper",
     "    env_file:",
     "      - .env",
-    "    restart: unless-stopped",
+    "    restart: always",
     "    volumes:"
 ]
 
